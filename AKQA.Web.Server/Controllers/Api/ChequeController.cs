@@ -21,15 +21,23 @@ namespace AKQA.Web.Server.Controllers.Api
         [HttpPost]
         public IHttpActionResult Print([FromBody]Cheque data)
         {
-            if (ModelState.IsValid)
+            try
             {
-                var jsonResult = new ExpandoObject() as IDictionary<string, object>;
-                var TextAmount = _numberToTextConvertor.Convert(data.amount);
-                jsonResult.Add("fullname", data.fullname);
-                jsonResult.Add("amount", TextAmount.ToUpper());
-                return Ok(jsonResult);
+                if (ModelState.IsValid)
+                {
+                    var jsonResult = new ExpandoObject() as IDictionary<string, object>;
+                    var TextAmount = _numberToTextConvertor.Convert(data.amount);
+                    jsonResult.Add("fullname", data.fullname);
+                    jsonResult.Add("amount", TextAmount.ToUpper());
+                    return Ok(jsonResult);
+                }
+                return BadRequest("Error");
             }
-            return BadRequest();
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            
         }
     }
 }

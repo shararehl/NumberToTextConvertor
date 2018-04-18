@@ -22,7 +22,7 @@ namespace AKQA.Common
             {
                 if (!IsNumberValid(amount))
                 {
-                    throw new InvalidEnumArgumentException();
+                    throw new InvalidOperationException("Invalid decimal Amount");
                 }
 
                 var result = new Dictionary<DecimalParts, List<string>>();
