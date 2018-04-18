@@ -135,7 +135,6 @@
     <Content Include="content\js\controllers\ChequeController.js" />
     <Content Include="content\html\chequeForm.html" />
     <Content Include="content\js\services\dataService.js" />
-    <Content Include="content\js\services\httpInterceptor.js" />
     <Content Include="index.html" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>
@@ -166,7 +165,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ReadMe.txt" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
