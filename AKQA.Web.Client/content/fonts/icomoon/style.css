@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?991ymh');
+  src:  url('fonts/icomoon.eot?991ymh#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?991ymh') format('truetype'),
+    url('fonts/icomoon.woff?991ymh') format('woff'),
+    url('fonts/icomoon.svg?991ymh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-plane:before {
+  content: "\e905";
+}
+.icon-selection:before {
+  content: "\e900";
+}
+.icon-booking:before {
+  content: "\e901";
+}
+.icon-extra-services:before {
+  content: "\e902";
+}
+.icon-payment:before {
+  content: "\e903";
+}
+.icon-personal-info:before {
+  content: "\e904";
+}
+.icon-info:before {
+  content: "\f129";
+}
+.icon-close:before {
+  content: "\e607";
+}
+.icon-checkmark:before {
+  content: "\e608";
+}
+.icon-triangle-left:before {
+  content: "\f044";
+}
+.icon-triangle-right:before {
+  content: "\f05a";
+}
+.icon-Mahan_Air_Logo:before {
+  content: "\e606";
+}
+.icon-Booking:before {
+  content: "\e600";
+}
+.icon-Inbound:before {
+  content: "\e604";
+}
+.icon-Outbound:before {
+  content: "\e605";
+}
+
