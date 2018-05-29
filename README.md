@@ -1,5 +1,4 @@
-# TakeAwayTechTest
-
+# NumberToTextConvertor
 Setup 
 --------------------------------------------------------------------------------------------------------------------------
 In Visual studio, Restore nuget packages on the solution, build it and set AKQA.Web.Client as the startup project and run.
