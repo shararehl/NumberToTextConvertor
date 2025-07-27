@@ -1,12 +1,12 @@
 # NumberToTextConvertor
 Setup 
 --------------------------------------------------------------------------------------------------------------------------
-In Visual studio, Restore nuget packages on the solution, build it and set AKQA.Web.Client as the startup project and run.
+In Visual studio, Restore nuget packages on the solution, build it and set NTT.Web.Client as the startup project and run.
 
 Projects Descriptions
 --------------------------------------------------------------------------------------------------------------------------
 
-AKQA.Common
+NTT.Common
 --------------------------------------------------------------------------------------------------------------------------
 A component for converting and formatting decimal/int number to text. This project was implemented with TDD approach along with considering SOLID for better reusability and maintenance.
 
@@ -17,24 +17,24 @@ INumberToTextLanguageFormatter: provides formatting and language support for the
 NumberToTextConvertor: An Implementation of INumberToTextConvertor which takes an INumberToTextLanguageFormatter implementation for Converting Number to the desired language format.
 
 --------------------------------------------------------------------------------------------------------------------------
-AKQA.Common.Tests  
+NTT.Common.Tests  
 --------------------------------------------------------------------------------------------------------------------------
 Contains tests for all combination of INumberToTextConvertor and INumberToTextLanguageFormatter implementations. NUnit was used for writing tests.
 
 --------------------------------------------------------------------------------------------------------------------------
-AKQA.Web.Server
+NTT.Web.Server
 --------------------------------------------------------------------------------------------------------------------------
 An OWIN hosted Web Api providing service for formatting number. The Controller needs an implementation of INumberToTextConvertor which is injected using Autofac. 
 
  --------------------------------------------------------------------------------------------------------------------------
- AKQA.Web.Server.Tests
+ NTT.Web.Server.Tests
  --------------------------------------------------------------------------------------------------------------------------
-Unit Tests for AKQA.Web.Server Controller using NUnit.
+Unit Tests for NTT.Web.Server Controller using NUnit.
 
 --------------------------------------------------------------------------------------------------------------------------
-AKQA.Web.Client
+NTT.Web.Client
 --------------------------------------------------------------------------------------------------------------------------
-A simple frontend application implemented using Angularjs to showcase usage of AKQA.Web.Server service.
+A simple frontend application implemented using Angularjs to showcase usage of NTT.Web.Server service.
 
 
 

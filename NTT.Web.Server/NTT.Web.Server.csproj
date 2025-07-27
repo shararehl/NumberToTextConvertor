@@ -131,9 +131,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AKQA.Common\AKQA.Common.csproj">
+    <ProjectReference Include="..\NTT.Common\NTT.Common.csproj">
       <Project>{8AD32898-1442-4A3A-92C0-01CD5ED4D5EB}</Project>
-      <Name>AKQA.Common</Name>
+      <Name>NTT.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

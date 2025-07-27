@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKQA.Common", "AKQA.Common\AKQA.Common.csproj", "{8AD32898-1442-4A3A-92C0-01CD5ED4D5EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTT.Common", "NTT.Common\NTT.Common.csproj", "{8AD32898-1442-4A3A-92C0-01CD5ED4D5EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKQA.Common.Tests", "AKQA.Common.Tests\AKQA.Common.Tests.csproj", "{3EDF9846-629B-4B6E-8578-564B5FD96F52}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTT.Common.Tests", "NTT.Common.Tests\NTT.Common.Tests.csproj", "{3EDF9846-629B-4B6E-8578-564B5FD96F52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKQA.Web.Server", "AKQA.Web.Server\AKQA.Web.Server.csproj", "{9FD96CF1-3EFE-4099-B9F5-E8DCAA94EC18}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTT.Web.Server", "NTT.Web.Server\NTT.Web.Server.csproj", "{9FD96CF1-3EFE-4099-B9F5-E8DCAA94EC18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKQA.Web.Server.Tests", "AKQA.Web.Server.Tests\AKQA.Web.Server.Tests.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTT.Web.Server.Tests", "NTT.Web.Server.Tests\NTT.Web.Server.Tests.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKQA.Web.Client", "AKQA.Web.Client\AKQA.Web.Client.csproj", "{6C04948C-B801-420B-9BCB-8AB9D4781567}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTT.Web.Client", "NTT.Web.Client\NTT.Web.Client.csproj", "{6C04948C-B801-420B-9BCB-8AB9D4781567}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -178,9 +178,9 @@
     <Folder Include="lib\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AKQA.Web.Server\AKQA.Web.Server.csproj">
+    <ProjectReference Include="..\NTT.Web.Server\NTT.Web.Server.csproj">
       <Project>{9fd96cf1-3efe-4099-b9f5-e8dcaa94ec18}</Project>
-      <Name>AKQA.Web.Server</Name>
+      <Name>NTT.Web.Server</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

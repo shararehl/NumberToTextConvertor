@@ -59,13 +59,13 @@
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AKQA.Common\AKQA.Common.csproj">
+    <ProjectReference Include="..\NTT.Common\NTT.Common.csproj">
       <Project>{8AD32898-1442-4A3A-92C0-01CD5ED4D5EB}</Project>
-      <Name>AKQA.Common</Name>
+      <Name>NTT.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AKQA.Web.Server\AKQA.Web.Server.csproj">
+    <ProjectReference Include="..\NTT.Web.Server\NTT.Web.Server.csproj">
       <Project>{9fd96cf1-3efe-4099-b9f5-e8dcaa94ec18}</Project>
-      <Name>AKQA.Web.Server</Name>
+      <Name>NTT.Web.Server</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
