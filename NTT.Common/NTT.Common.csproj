@@ -7,8 +7,8 @@
     <ProjectGuid>{8AD32898-1442-4A3A-92C0-01CD5ED4D5EB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AKQA.Common</RootNamespace>
-    <AssemblyName>AKQA.Common</AssemblyName>
+    <RootNamespace>NTT.Common</RootNamespace>
+    <AssemblyName>NTT.Common</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

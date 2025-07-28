@@ -1,15 +1,15 @@
 ﻿using System.Reflection;
 using System.Web.Http;
-using AKQA.Common;
-using AKQA.Common.Abstraction;
-using AKQA.Common.Formatter;
+using NTT.Common;
+using NTT.Common.Abstraction;
+using NTT.Common.Formatter;
 using Autofac;
 using Autofac.Integration.WebApi;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(AKQA.Web.Server.Startup))]
-namespace AKQA.Web.Server
+[assembly: OwinStartup(typeof(NTT.Web.Server.Startup))]
+namespace NTT.Web.Server
 {
     public class Startup
     {

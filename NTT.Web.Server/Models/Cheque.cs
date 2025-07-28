@@ -1,4 +1,4 @@
-﻿namespace AKQA.Web.Server.Models
+﻿namespace NTT.Web.Server.Models
 {
 
     public class Cheque

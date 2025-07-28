@@ -1,13 +1,13 @@
-﻿using AKQA.Common.Abstraction;
-using AKQA.Common.Formatter;
+﻿using NTT.Common.Abstraction;
+using NTT.Common.Formatter;
 using NUnit.Framework;
 
-namespace AKQA.Common.Tests
+namespace NTT.Common.Tests
 {
     [TestFixture]
     public class NumToTextConvertorEnglishFormatterTests
     {
-        private AKQA.Common.Abstraction.INumberToTextConvertor _digitToWordConverter;
+        private NTT.Common.Abstraction.INumberToTextConvertor _digitToWordConverter;
         private INumberToTextLanguageFormatter _numberToTextLanguageFormatter;
         [SetUp]
         public void Init()

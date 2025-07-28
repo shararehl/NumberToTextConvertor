@@ -1,13 +1,13 @@
-﻿using AKQA.Common.Abstraction;
-using AKQA.Common.Formatter;
+﻿using NTT.Common.Abstraction;
+using NTT.Common.Formatter;
 using NUnit.Framework;
 
-namespace AKQA.Common.Tests
+namespace NTT.Common.Tests
 {
     [TestFixture]
     public class NumToTextConvertorCustomEnglishWithDollarFormatterTests
     {
-        private AKQA.Common.Abstraction.INumberToTextConvertor _digitToWordConverter;
+        private INumberToTextConvertor _digitToWordConverter;
         private INumberToTextLanguageFormatter _numberToTextLanguageFormatter;
 
         [SetUp]
@@ -123,7 +123,7 @@ namespace AKQA.Common.Tests
             Assert.AreEqual(expected, actual);
         }
         [Test]
-        public void Convert__878787_to_EnglishDollar_ElevenThousand()
+        public void Convert__878787_to_EnglishDollar_EighHundredAndSeventyEightThousand()
         {
             var amount = 878787;
             var expected = "Eight Hundred and Seventy-Eight Thousand and Seven Hundred and Eighty-Seven dollars";

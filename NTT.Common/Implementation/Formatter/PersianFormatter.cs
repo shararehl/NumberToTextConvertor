@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using AKQA.Common.Abstraction;
-using AKQA.Common.Entities;
+using NTT.Common.Abstraction;
+using NTT.Common.Entities;
 
-namespace AKQA.Common.Formatter
+namespace NTT.Common.Formatter
 {
     public class PersianFormatter : INumberToTextLanguageFormatter
     {

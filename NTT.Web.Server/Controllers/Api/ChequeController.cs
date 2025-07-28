@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Dynamic;
 using System.Web.Http;
-using AKQA.Common.Abstraction;
-using AKQA.Common.Entities;
-using AKQA.Web.Server.Models;
+using NTT.Common.Abstraction;
+using NTT.Common.Entities;
+using NTT.Web.Server.Models;
 using Newtonsoft.Json.Linq;
 
-namespace AKQA.Web.Server.Controllers.Api
+namespace NTT.Web.Server.Controllers.Api
 {
 
     public partial class ChequeController : ApiController

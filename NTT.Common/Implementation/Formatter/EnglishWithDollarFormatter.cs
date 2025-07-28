@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AKQA.Common.Abstraction;
-using System.Linq.Expressions;
-using AKQA.Common.Entities;
+using NTT.Common.Entities;
 
-namespace AKQA.Common.Formatter
+namespace NTT.Common.Formatter
 {
     public class EnglishWithDollarFormatter : EnglishFormatter
     {

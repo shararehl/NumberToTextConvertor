@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AKQA.Common.Entities;
+using NTT.Common.Entities;
 
-namespace AKQA.Common.Abstraction
+namespace NTT.Common.Abstraction
 {
     public interface INumberToTextLanguageFormatter
     {

@@ -1,8 +1,8 @@
-﻿using AKQA.Common.Abstraction;
-using AKQA.Common.Formatter;
+﻿using NTT.Common.Abstraction;
+using NTT.Common.Formatter;
 using NUnit.Framework;
 
-namespace AKQA.Common.Tests
+namespace NTT.Common.Tests
 {
 
     [TestFixture]
