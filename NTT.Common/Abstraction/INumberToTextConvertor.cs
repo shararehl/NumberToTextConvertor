@@ -1,4 +1,4 @@
-﻿namespace AKQA.Common.Abstraction
+﻿namespace NTT.Common.Abstraction
 {
     public interface INumberToTextConvertor
     {

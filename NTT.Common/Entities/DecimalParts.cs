@@ -1,4 +1,4 @@
-﻿namespace AKQA.Common.Entities
+﻿namespace NTT.Common.Entities
 {
     public enum DecimalParts
     {

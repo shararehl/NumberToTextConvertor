@@ -1,16 +1,18 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Dynamic;
+using System.IO;
 using System.Web.Http.Results;
-using AKQA.Common;
-using AKQA.Common.Abstraction;
-using AKQA.Common.Formatter;
-using AKQA.Web.Server.Controllers.Api;
-using AKQA.Web.Server.Models;
+using NTT.Common;
+using NTT.Common.Abstraction;
+using NTT.Common.Formatter;
+using NTT.Web.Server.Controllers.Api;
+using NTT.Web.Server.Models;
 using NUnit.Framework;
 
 
-namespace AKQA.Web.Server.Tests.Controllers.Api
+namespace NTT.Web.Server.Tests.Controllers.Api
 {
     [TestFixture]
     public class ChequeControllerTest
@@ -31,10 +33,10 @@ namespace AKQA.Web.Server.Tests.Controllers.Api
             var data = new Cheque() { fullname = "John Smith", amount = null };
 
             //Act
-            TestDelegate act = () => _controller.Print(data);
+            var result = _controller.Print(data);
 
             //Assert
-            Assert.Throws<InvalidEnumArgumentException>(act);
+            Assert.IsInstanceOf<BadRequestErrorMessageResult>(result);
         } 
         [Test]
         public void Print_WithInvalidAmount_Throws_Exception()
@@ -43,10 +45,10 @@ namespace AKQA.Web.Server.Tests.Controllers.Api
             var data = new Cheque() { fullname= "John Smith", amount= "klk" };
 
             //Act
-            TestDelegate act = () => _controller.Print(data);
+            var result = _controller.Print(data);
 
             //Assert
-            Assert.Throws<InvalidEnumArgumentException>(act);
+            Assert.IsInstanceOf<BadRequestErrorMessageResult>(result);
         }
         [Test]
         public void Print_WithFullName_and_Amount_Return_OK()

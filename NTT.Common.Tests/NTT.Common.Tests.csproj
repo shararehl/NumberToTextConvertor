@@ -9,8 +9,8 @@
     <ProjectGuid>{3EDF9846-629B-4B6E-8578-564B5FD96F52}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AKQA.Common.Tests</RootNamespace>
-    <AssemblyName>AKQA.Common.Tests</AssemblyName>
+    <RootNamespace>NTT.Common.Tests</RootNamespace>
+    <AssemblyName>NTT.Common.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>

@@ -1,13 +1,12 @@
-﻿using System;
+﻿using NTT.Common.Abstraction;
+using NTT.Common.Entities;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using AKQA.Common.Abstraction;
-using AKQA.Common.Entities;
+using System.IO;
 
 // ReSharper disable All
 
-namespace AKQA.Common
+namespace NTT.Common
 {
     public class NumberToTextConvertor : INumberToTextConvertor
     {
@@ -22,7 +21,7 @@ namespace AKQA.Common
             {
                 if (!IsNumberValid(amount))
                 {
-                    throw new InvalidOperationException("Invalid decimal Amount");
+                    throw new InvalidDataException("Invalid decimal Amount");
                 }
 
                 var result = new Dictionary<DecimalParts, List<string>>();
